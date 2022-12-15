@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Home Page",
+        "description": "",
+        "id": "new-user-signup;home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13295069800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Launch The Url",
+            "match": {
+              "location": "ZohoStep.user_Launch_The_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2232748900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Click The SignUp Free",
+            "match": {
+              "location": "ZohoStep.user_Click_The_SignUp_Free()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "SignUp Page",
+        "description": "",
+        "id": "new-user-signup;signup-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6578172800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Enter The Email",
+            "match": {
+              "location": "ZohoStep.user_Enter_The_Email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 491634200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Enther The Password",
+            "match": {
+              "location": "ZohoStep.user_Enther_The_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 513824200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Click The Check Box",
+            "match": {
+              "location": "ZohoStep.user_Click_The_Check_Box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3981597400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Click The SignUp",
+            "match": {
+              "location": "ZohoStep.user_Click_The_SignUp()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New User SignUp",
+    "description": "",
+    "id": "new-user-signup",
+    "keyword": "Feature",
+    "uri": "C:/Users/ELCOT/eclipse-workspace/Zoho/src/test/java/com/feature/ZohoLogin.feature",
+    "tags": []
+  }
+]
